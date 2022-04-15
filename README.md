@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/84624397/163532738-9036d396-d12f-4f6b-
 2. Go to the project directory
 
 ```bash
-  cd my-project
+  cd batList-chrome-extension
 ```
 
 3. Install dependencies
