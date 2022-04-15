@@ -164,7 +164,7 @@ const ListContextProvider = (props) => {
 
 
     const searchDataFromYouTube = (keyword) => {
-        const searchiEndpoint = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&type=video&key=AIzaSyAmPKedfQB0RNPRoNilyuL7ykJSAbwLepw&q="
+        const searchiEndpoint = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&type=video&key=YOUR_KEY_HERE&q="
         fetch(searchiEndpoint + keyword)
             .then(data => data.json())
             .then(data => {
