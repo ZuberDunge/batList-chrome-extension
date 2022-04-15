@@ -1,0 +1,123 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&display=swap'); */
+
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  padding: 1rem;
+  width: 500px;
+  background-color: #202020;
+  color: white;
+}
+
+.searchbar {
+  margin: .5rem 0;
+  padding: .5rem 1rem .5rem 2rem;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  border: 2px solid #a8dadc50;
+  transition: .3s all;
+  color: white;
+  background-color: #ffffff25;
+}
+
+.searchbar::placeholder {
+  color: #ffffff75;
+}
+
+.searchbar:focus {
+  border: 2px solid var(--primary-red);
+}
+
+.bat-card {
+  font-size: 14px;
+}
+
+
+/* card img */
+
+
+.bat-card-horizontal.bat-card img {
+  width: 180px !important;
+}
+
+.bat-card-horizontal.bat-card .bat-btn-with-icon {
+  font-size: 14px;
+  padding: .5rem 1rem;
+}
+
+.bat-card-horizontal.bat-card .bat-btn-with-icon i {
+  font-size: 12px;
+}
+
+.fa-search {
+  position: absolute;
+  top: 20px;
+  left: 11px;
+  color: var(--white);
+}
+
+.relative {
+  position: relative;
+}
+
+.bat-login-form {
+  max-width: 375px;
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  padding: .5rem 1rem;
+  font-weight: 600;
+}
+
+.bat-border-1 {
+  border: 1px solid #a8dadc50;
+}
+
+.nav-section {
+  margin-bottom: 1rem;
+}
+
+.bat-login-form input {
+  color: white;
+}
+
+.bat-login-form span {
+  font-size: 14px;
+}
+
+
+/* error notification */
+.bat-alert-warning {
+  max-width: 375px;
+  background-color: var(--alert-warning-bg);
+  color: var(--alert-warning);
+  margin: auto;
+  position: fixed;
+  top: 10%;
+  right: 0;
+  left: 0;
+}
+
+.bat-m-tb-1r {
+  margin: 1rem 0;
+}
+
+.input-parent label {
+  position: static !important;
+}
+
+.random-btn {
+  border: 2px solid var(--primary-red);
+  background: transparent;
+}
+
+.random-btn:hover {
+  background: var(--primary-red);
+}

@@ -1,0 +1,99 @@
+html:not(.style-scope)[standardized-themed-scrollbar] {
+  scrollbar-color: var(--primary-red) transparent;
+  scrollbar-width: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: 500;
+  padding: 1rem;
+  background: #6225e6;
+  margin: 1rem -1rem -1rem -1rem;
+  transition: .2s all;
+}
+
+footer:hover {
+  background-color: #b82e38;
+}
+
+footer a {
+  transition: .3s all;
+}
+
+footer a:hover {
+  color: #1a304e;
+}
+
+:root {
+  --primary-red: #6225E6
+}
+
+img {
+  max-width: 100%;
+}
+
+.ty-logo {
+  max-width: 80px;
+  transform: rotate(31deg);
+  display: flex;
+  margin: auto;
+}
+
+.parent-div {
+  gap: .5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.hero-img {
+  margin-left: -1rem;
+  max-width: 480px;
+  width: 132%;
+}
+
+.main {
+  min-height: 80vh;
+}
+
+.app-info ul li {
+  padding: .5rem;
+  font-size: 1.25rem;
+
+}
+
+.app-info ul {
+  list-style-type: disclosure-closed;
+}
+
+.youre-offline {
+  text-transform: uppercase;
+  border: 2px solid #6225e6;
+  color: #fff;
+  margin: 0 -1rem;
+  padding: 1rem 0;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+.youre-offline img {
+  width: 250px;
+}
