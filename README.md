@@ -2,6 +2,8 @@
 
 ## A watchList extension for YouTube
 
+<a href="https://www.producthunt.com/posts/batlist-watchlist-for-youtube?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-batlist&#0045;watchlist&#0045;for&#0045;youtube" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=344996&theme=dark" alt="batList&#0032;&#0045;&#0032;watchList&#0032;for&#0032;YouTube - A&#0032;watchList&#0032;extension&#0032;for&#0032;YouTube | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 Live Link : [batList](https://chrome.google.com/webstore/detail/batlist-watchlist-extensi/jdiacjnlomdmccmgkkmeomeohhhdkhbg)
 
 ## What exactly it does? 
